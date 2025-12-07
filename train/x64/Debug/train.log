@@ -1,0 +1,21 @@
+﻿   Qt/MSBuild: 3.4.1.0
+  Reading Qt configuration (C:/Qt/6.7.3/msvc2019_64/bin/qmake)
+   Qt: 6.7.3
+  uic CustomerMainWindow.ui
+  uic LoginDialog.ui
+  uic RegisterDialog.ui
+  rcc train.qrc
+  moc CustomerMainWindow.h
+  moc RegisterDialog.h
+  moc LoginDialog.h
+   RCC: Warning: No resources in 'D:\train\train\train.qrc'.
+  RegisterDialog.cpp
+  CustomerMainWindow.cpp
+  DataManager.cpp
+  LoginDialog.cpp
+  main.cpp
+  qrc_train.cpp
+  moc_CustomerMainWindow.cpp
+  moc_RegisterDialog.cpp
+  moc_LoginDialog.cpp
+  train.vcxproj -> D:\train\train\x64\Debug\train.exe
