@@ -361,3 +361,52 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ===============================
+# Visual Studio + C++ + Qt 项目
+# 专用 .gitignore
+# ===============================
+
+# ---- Build 输出目录 ----
+x64/
+Debug/
+Release/
+build/
+
+# ---- Visual Studio 临时文件 ----
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- Visual Studio 生成文件 ----
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.ilk
+*.obj
+*.pch
+*.cachefile
+
+# ---- 可执行和库文件 ----
+*.exe
+*.dll
+*.lib
+
+# ---- Qt 自动生成文件（可选忽略）----
+*.qrc.dep
+*.moc
+*.qmake.stash
+
+# ---- 日志文件 ----
+*.log
+
+# ---- 备份文件 ----
+*.bak
+*.tmp
+*.temp
+
+# ---- 其他不需要加入版本控制的文件 ----
+*.o
+*.gch
+*.rej
