@@ -39,3 +39,23 @@ users.txt   # 登录用户信息属于敏感文件
 Thumbs.db
 *.swp
 *.tmp
+
+# Visual Studio build directories
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.idb
+*.tlog
+*.ilk
+*.log
+
+# Qt build cache
+*.qrc.depends
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+qt/
+.vs/
